@@ -22,6 +22,10 @@ app.get('/results', (req,res) =>{
 
 })
 
+app.get('/' , (req, res) =>{
+    res.render('search');
+});
+
 app.get('/search' , (req, res) =>{
     res.render('search');
 });
