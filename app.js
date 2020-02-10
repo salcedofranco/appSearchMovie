@@ -32,14 +32,14 @@ app.get('/search' , (req, res) =>{
 
 
 // PUERTO LOCALHOST 3000
-//app.listen(3000, () =>{
-   // console.log('Server escuchando en puerto 3000.');
+app.listen(3000, () =>{
+    console.log('Server escuchando en puerto 3000.');
 
-//});//
+});//
 
 
 
 //ESTE PUERTO ES PARA HEROKU
-app.listen(process.env.PORT, () => {
-    console.log("Puerto 3000 funcionando!");
-});
+//app.listen(process.env.PORT, () => {
+   // console.log("Puerto 3000 funcionando!");
+//});
