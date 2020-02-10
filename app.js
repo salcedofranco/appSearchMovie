@@ -30,7 +30,11 @@ app.get('/search' , (req, res) =>{
     res.render('search');
 });
 
-app.listen(3000, () =>{
-    console.log('Server escuchando en puerto 3000.');
+//app.listen(3000, () =>{
+   // console.log('Server escuchando en puerto 3000.');
 
+//});//
+
+app.listen(process.env.PORT, () => {
+    console.log("Puerto 3000 funcionando!");
 });
