@@ -4,8 +4,12 @@
 
 body{
     
-    background-image: url("../img/cine3.jpg");
+    background-color: #b81b1b;
 
+}
+
+.fondo{
+    background-image: url("../img/cine3.jpg");
 }
 
 .card-title{
